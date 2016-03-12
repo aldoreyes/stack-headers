@@ -1,0 +1,34 @@
+{
+  "name": "stack-headers",
+  "version": "0.0.1",
+  "homepage": "https://github.com/aldoreyes/stack-headers",
+  "authors": [
+    "Aldo Reyes <aldo.reyes18@gmail.com>"
+  ],
+  "description": "Stack headers of specific containers, to stay visible as long as the container is on the screen.",
+  "main": [
+    "stackheaders.js",
+    "styles/stackheaders.css"
+  ],
+  "moduleType": [
+    "amd",
+    "globals"
+  ],
+  "keywords": [
+    "headers",
+    "scroll",
+    "fixed",
+    "jquery"
+  ],
+  "license": "GNU v3",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.1"
+  }
+}

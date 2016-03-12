@@ -1,0 +1,15 @@
+html, body{
+  margin: 0;
+  font-family: Arial;
+}
+
+.stack-header{
+  width: 100%;
+  overflow: hidden;
+}
+
+
+.stack-header.fixed{
+  position: fixed;
+  top: 0;
+}
