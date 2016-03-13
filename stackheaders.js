@@ -37,7 +37,6 @@
 
           //if scrolling past the top of the window
           var headerDiff = rect.bottom - itemHeight;
-          console.log(headerDiff);
           if( headerDiff < 0 ){
             item.header.css('top', headerDiff );
           }else{
@@ -64,6 +63,10 @@
   var stackHeadersMain = function(userOpts){
     if(_model === undefined){
       _model = stackHeadersGlobal();
+    }
+
+    if(userOpts === 'refresh'){
+      return _model.refresh();
     }
 
     if ( this.hasOwnProperty('length') ){
